@@ -7,8 +7,8 @@ import {
   startOfWeek,
   subDays,
 } from "date-fns"
-import { useHabits, type Habit } from "../context/HabitProvider"
 import { Button } from "./Button"
+import { type Habit, useHabits } from "../context/useHabits"
 
 export function HabitList() {
   const { habits } = useHabits()
