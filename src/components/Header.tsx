@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button } from "./Button"
 
 export function Header() {
   return (
@@ -16,5 +16,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  );
+  )
 }
