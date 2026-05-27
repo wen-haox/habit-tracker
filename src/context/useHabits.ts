@@ -18,7 +18,7 @@ export const HabitContext = createContext<null | Context>(null)
 export function useHabits() {
   const habitContext = useContext(HabitContext)
   if (habitContext === null) {
-    throw new Error("Null Context")
+    throw new Error("Null context")
   }
   return habitContext
 }
