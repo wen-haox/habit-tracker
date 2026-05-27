@@ -34,7 +34,7 @@ npm install
 npm run dev
 ```
 
-Open the URL shown in the terminal (usually `http://localhost:5173`).
+Open the URL shown in the terminal.
 
 ### Other scripts
 
@@ -43,7 +43,3 @@ Open the URL shown in the terminal (usually `http://localhost:5173`).
 | `npm run build`   | Type-check and build for production  |
 | `npm run preview` | Preview the production build locally |
 | `npm run lint`    | Run ESLint                           |
-
-## License
-
-Private learning project.
